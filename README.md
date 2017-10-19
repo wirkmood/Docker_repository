@@ -19,7 +19,7 @@ https://docs.docker.com/engine/reference/builder/#escape
 
 - Look the Dockerfile
 
--Build the the docker image with the dockerfile 
+- Build the the docker image with the dockerfile 
 
 docker build -t docker-image-name .
 
