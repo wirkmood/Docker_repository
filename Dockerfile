@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Gianni BENINCASA <gianni.benincasa@devoteam.com>
+MAINTAINER Gianni BENINCASA <benincasa.gianni@gmail.com>
 RUN (apt-get update)
 RUN apt-get install -y apache2 git nano sudo
 
