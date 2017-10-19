@@ -17,14 +17,15 @@ https://docs.docker.com/engine/reference/builder/#escape
 
 <b>2) Use the dockerfile for your docker template and customise it if you wish </b>
 
-- Look the Dockerfile
+Look the Dockerfile
 
-- Build the the docker image with the dockerfile 
+Build the the docker image with the dockerfile 
 
-docker build -t docker-image-name .
+- docker build -t docker-image-name .
 
-- Deploy a docker with your docker-file-name
-docker create --tty --interactive  --name="docker-name" --hostname web1 -p 80 docker-image-name
+Deploy a docker with your docker-file-name
 
-- Access of the docker bash 
-docker exec -it docker-name bash
+- docker create --tty --interactive  --name="docker-name" --hostname web1 -p 80 docker-image-name
+
+Access of the docker bash 
+- docker exec -it docker-name bash
