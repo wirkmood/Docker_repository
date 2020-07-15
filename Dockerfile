@@ -1,7 +1,7 @@
 # Choice your image base, for this template I choose jessie of debian version 
 FROM debian:jessie
 
-MAINTAINER Gianni BENINCASA <benincasa.gianni@gmail.com>
+MAINTAINER Wirkmood <wirkmood@gmail.com>
 
 ###############################
 # update & apache installation
